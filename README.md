@@ -100,7 +100,7 @@ Una vez instalada la aplicación, iniciar tu viaje en la LSE es muy sencillo:
 Este proyecto ha sido posible gracias al esfuerzo y dedicación de:
 
 * **Luis García Lizandra** - 👨‍💻 Desarrollador Principal - [Perfil de GitHub](https://github.com/LuisGarciaLizandra)
-* *(Si hay otros colaboradores, puedes añadir aquí sus nombres y enlaces a sus perfiles de GitHub)*
+
 
 ## 📄 Licencia
 
@@ -126,6 +126,6 @@ Un sincero y profundo agradecimiento a todas las personas, instituciones y recur
 Para cualquier consulta, sugerencia, informe de errores o si deseas colaborar en el proyecto, no dudes en contactar con el autor:
 
 * **Email:** garcializandraluis@gmail.com
-* *(Puedes añadir aquí otros métodos de contacto si los tienes, como enlaces a redes sociales o un servidor de Discord si planeas crear una comunidad para el proyecto.)*
+
 
 ---
