@@ -1,0 +1,89 @@
+[versions]
+agp = "8.10.0"
+# exoplayer = "2.19.1" # <--- ¡BORRA ESTA LÍNEA!
+androidxMedia3Exoplayer = "1.2.1"
+androidxRuntimeLivedata = "1.6.1"
+composeBomVersion = "2023.08.00"
+firebaseAuthKtx = "23.2.1"
+firebaseBom = "33.0.0"
+firebaseStorageKtx = "21.0.2"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinxCoroutinesPlayServices = "1.7.3"
+lifecycleRuntimeKtx = "2.9.0"
+activityCompose = "1.10.1"
+composeBom = "2024.09.00"
+material3 = "1.2.1"
+material3Version = "1.1.2"
+materialIconsExtended = "1.7.8"
+media3Common = "1.7.1"
+media3CommonVersion = "1.2.1"
+media3ExoplayerDash = "1.2.1"
+media3ExoplayerVersion = "1.2.0"
+media3Ui = "1.2.0"
+media3UiVersion = "1.2.1"
+navigationCompose = "2.7.7"
+runtimeLivedata = "1.8.2"
+media3Exoplayer = "1.7.1"
+firebaseDatabaseKtx = "21.0.0" # Asegúrate que esta versión esté
+
+
+[libraries]
+androidx-compose-bom-v20230800 = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
+androidx-material3-v112 = { module = "androidx.compose.material3:material3", version.ref = "material3Version" }
+androidx-media3-common = { module = "androidx.media3:media3-common", version.ref = "media3Common" }
+androidx-media3-common-v121 = { module = "androidx.media3:media3-common", version.ref = "media3CommonVersion" }
+androidx-media3-datasource = { module = "androidx.media3:media3-datasource", version.ref = "androidxMedia3Exoplayer" }
+androidx-media3-exoplayer-dash-v121 = { module = "androidx.media3:media3-exoplayer-dash", version.ref = "media3ExoplayerDash" }
+androidx-media3-exoplayer-v120 = { module = "androidx.media3:media3-exoplayer", version.ref = "media3ExoplayerVersion" }
+androidx-media3-exoplayer-v121 = { module = "androidx.media3:media3-exoplayer", version.ref = "androidxMedia3Exoplayer" }
+androidx-media3-ui-v120 = { module = "androidx.media3:media3-ui", version.ref = "media3Ui" }
+androidx-media3-ui-v121 = { module = "androidx.media3:media3-ui", version.ref = "media3UiVersion" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+# exoplayer = { module = "com.google.android.exoplayer:exoplayer", version.ref = "exoplayer" } # <--- ¡BORRA ESTA LÍNEA!
+# exoplayer-ui = { module = "com.google.android.exoplayer:exoplayer-ui", version.ref = "exoplayer" } # <--- ¡BORRA ESTA LÍNEA!
+# extension-firebase = { module = "com.google.android.exoplayer:extension-firebase", version.ref = "exoplayer" } # <--- ¡BORRA ESTA LÍNEA!
+
+androidx-runtime-livedata-v161 = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "androidxRuntimeLivedata" }
+firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx" }
+firebase-storage-ktx = { module = "com.google.firebase:firebase-storage-ktx" }
+google-firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+google-firebase-storage-ktx = { module = "com.google.firebase:firebase-storage-ktx", version.ref = "firebaseStorageKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+kotlinx-coroutines-play-services = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "kotlinxCoroutinesPlayServices" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+
+# --- ¡NUEVAS DEPENDENCIAS DE MEDIA3 QUE DEBEN ESTAR Y ESTAR SOLAS! ---
+androidx-media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "media3Exoplayer" }
+androidx-media3-exoplayer-dash = { group = "androidx.media3", name = "media3-exoplayer-dash", version.ref = "media3Exoplayer" } # Si usas DASH
+androidx-media3-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "media3Exoplayer" } # Para la vista del reproductor (PlayerView)
+androidx-media3-exoplayer-hls = { group = "androidx.media3", name = "media3-exoplayer-hls", version.ref = "media3Exoplayer" }
+google-firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" } # Si usas HLS
+ui = { module = "androidx.compose.ui:ui" }
+# -------------------------------------------------------------------
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
